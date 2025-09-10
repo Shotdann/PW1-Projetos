@@ -1,25 +1,16 @@
-<style>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
+style
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+  tr:nth-child(even) {
+    background-color: #dddddd;
 }
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
