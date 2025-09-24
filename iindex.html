@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venta Car</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="Imagens/Icone de motor.png">
+</head>
+
+<body>
+    <div class="Conteudo">
+        <header>
+            <h1>Venta Carros</h1>
+            <nav>
+                <!--Sem link para colocar ai abaixo-->
+                <a href="">Carros</a>
+                <a href="">Serviços</a>
+                <a href="">Contato</a>
+            </nav>
+        </header>
+        <hr>
+
+
+        <section id="cars">
+            <h2 style="margin-top:12px">Veículos disponíveis</h2>
+            <div class="cars">
+                <div class="car">
+                    <h3>Ford Mustang - 2019</h3>
+                    <p>Km: 55.000 • Manual • 2 portas</p>
+                    <p>4 Rodas</p>
+                    <p>Cor Azul</p>
+                    <p class="price">R$ 250.900</p>
+                </div>
+                <img src="Imagens/mustang-2019-2.jpg.webp" style="display:block; margin: 0 auto;" width="400">
+                <hr>
+
+
+                <div class="car">
+                    <h3>Audi Pura sangue - 2018</h3>
+                    <p>Km: 56.000 • Automático • 2 portas</p>
+                    <p>4 Rodas</p>
+                    <p>Cor vermelho</p>
+                    <p class="price">R$ 270.000</p>
+                </div>
+                <img src="Imagens/audi-.jfif" style="display:block; margin: 0 auto;" width="400">
+                <hr>
+
+
+                <div class="car">
+                    <h3>Honda Civic 2025</h3>
+                    <p>Km: 15 • Gasolina • 5 lugares</p>
+                    <p>4 Rodas</p>
+                    <p>Cor Preto meio Cinzento</p>
+                    <p class="price">R$ 265.900</p>
+                </div>
+                <img src="Imagens/Honda Civic.jfif" style="display:block; margin: 0 auto;" width="400">
+                <hr>
+            </div>
+        </section>
+
+        <a href="">Mais Carros</a>
+        <!--Sem link tambem para esse lugar---->
+
+        <section id="servicos">
+            <h2 style="margin-top:14px">Serviços</h2>
+            <ul>
+                <li>Financiamento</li>
+                <li>Avaliação do usado</li>
+                <li>Test-drive</li>
+            </ul>
+        </section>
+
+
+        <section id="contato">
+            <h2 style="margin-top:14px">Para Mais Informação Fale Conosco</h2>
+            <form onsubmit="eventoForm(event)">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" required>
